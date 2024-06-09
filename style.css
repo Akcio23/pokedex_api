@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #555555;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app {
+    text-align: center;
+}
+
+button {
+    background-color: #ffcb05;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f2a007;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    max-width: 180px;
+}
+
+li:hover {
+    background-color: #8f1a1a;
+    color: whitesmoke;
+    transform: scale(1.05);
+}
+
+.pokemon-card {
+    text-align: center;
+}
+
+.pokemon-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 75%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.pokemon-card p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+/* Tipo de Pokémon com degradê */
+.fire {
+    background: linear-gradient(135deg, #f8d5a3, #ce122f);
+}
+.grass {
+    background: linear-gradient(135deg, #defde0, #45D619);
+}
+.water {
+    background: linear-gradient(135deg, #def3fd, #126cc2);
+}
+.bug {
+    background: linear-gradient(135deg, #f8d5a3, #963b0a);
+}
+.normal {
+    background: linear-gradient(135deg, #f5f5f5, #a9a9a9);
+}
+.poison {
+    background: linear-gradient(135deg, #e0a7f3, #6a22a6);
+}
+.electric {
+    background: linear-gradient(135deg, #fcf7de, #DAA520);
+}
+.ground {
+    background: linear-gradient(135deg, #f4e7da, #573628);
+}
+.fairy {
+    background: linear-gradient(135deg, #fceaff, #f16eb5);
+}
+.psychic {
+    background: linear-gradient(135deg, #eaeda1, #c9056e);
+}
+.fighting {
+    background: linear-gradient(135deg, #e6e0d4, #ad2608);
+}
+.rock {
+    background: linear-gradient(135deg, #d5d5d4, #555555);
+}
+.ice {
+    background: linear-gradient(135deg, #e0f5ff, #12cbc4);
+}
+.dragon {
+    background: linear-gradient(135deg, #97b3e6, #c9ded8);
+}
+.ghost {
+    background: linear-gradient(135deg, #d4c0f5, #b903f6);
+}
+.dark {
+    background: linear-gradient(135deg, #a9a9a9, #312b2b);
+}
+.flying {
+    background: linear-gradient(135deg, #f5f5f5, #35b2ff);
+}
+.steel {
+    background: linear-gradient(135deg, #f4f4f4, #9f9f9f);
+}
